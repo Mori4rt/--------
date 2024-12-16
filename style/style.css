@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neucha&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{ 
+   max-width: 1200px;
+   margin:auto;
+   padding: 0 5px;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 400px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #00335D;
+}
+
+.menu-list a:hover{
+    text-decoration: wavy;
+    color: #FFCB4A;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: #00335D;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    border: 2px solid #00335D;
+    padding: 10px 20px;
+    border-radius: 40px;
+    transition: all 0.4s ease;
+}
+
+.btn:hover{
+    color: #FFCB4A;
+    border: 2px solid #FFCB4A;
+}
+
+/* Content */
+
+.content{
+    display: flex;
+    margin-top: 50px;
+}
+
+.text{
+    width: 50%;
+}
+
+.title{
+    font-family: 'Neucha', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #00335D;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;    
+    font-size: 24px;
+    color: #00335D;
+    margin-bottom: 40px;
+}
+
+.btn_content{
+    text-decoration: none;
+    color: #00335D;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: #FFCB4A;
+    padding: 15px 25px;
+    border-radius: 40px;
+    transition: all 0.4s ease;
+}
+
+.img-side{
+position: absolute;
+right: 0;
+
+}
+
+
+/* Main */
+
+.content_main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+
+.title_main{
+    font-family: 'Neucha', cursive;
+    font-weight: 400;
+    font-size: 128px;
+    color: #00335D;
+    margin-bottom: 20px;
+}
+
